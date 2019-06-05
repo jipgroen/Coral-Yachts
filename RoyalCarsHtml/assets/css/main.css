@@ -13,6 +13,18 @@
   src: url("../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+
+/* Zelf toegevoegd */
+.r-footer-nav{
+    margin-top: 30px;
+}
+
+.r-footer-widget.r-footer-nav a:hover{
+    color: #028cca !important;
+}
+
+/* Einde zelf toegevoegd */
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -10161,7 +10173,7 @@ COLOR CUSTOMIZER
         .r-header .r-header-strip.r-header-fixed.r-header-strip-01 .r-submenu-icon {
           color: #fff; }
   .r-header .r-header-inner-banner {
-    background: url(../images/inner-header.jpg) no-repeat;
+    background: url(../images/boot-parkeren-behang-2880x900-4351_60.jpg) no-repeat;
     background-size: 100% 600px;
     background-attachment: fixed;
     position: relative;
@@ -10691,13 +10703,13 @@ COLOR CUSTOMIZER
     position: relative;
     top: inherit; } }
 .r-footer {
-  padding: 135px 0 0;
+  background-color: #ffcd00;
+  padding: 25px 0 0;
   position: relative; }
   .r-footer::after {
     content: "";
     width: 450px;
     height: 485px;
-    background: url(../images/footer-car.png) no-repeat;
     background-size: cover;
     position: absolute;
     right: 0;
@@ -10706,11 +10718,11 @@ COLOR CUSTOMIZER
   .r-footer .r-footer-block p {
     font-size: 16px;
     line-height: 20px;
-    color: #777;
+    color: #333333;
     line-height: 26px; }
   .r-footer .r-footer-block img {
     width: 100%;
-    margin-bottom: 65px; }
+    margin-bottom: 15px; }
   .r-footer .r-footer-block .r-newsletter {
     margin-top: 45px; }
     .r-footer .r-footer-block .r-newsletter::after {
@@ -10721,7 +10733,7 @@ COLOR CUSTOMIZER
       background: #f9f9f9;
       font-size: 15px;
       color: #999999;
-      padding: 0 20px;
+      padding: 0 5px;
       line-height: 50px;
       border: none;
       float: left;
@@ -10743,16 +10755,16 @@ COLOR CUSTOMIZER
     font-size: 30px;
     color: #333;
     font-weight: 500;
-    margin-bottom: 65px; }
+    margin-bottom: 15px; }
   .r-footer .r-footer-block .r-footer-nav h6 {
     font-size: 18px;
     color: #333;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
   .r-footer .r-footer-block .r-footer-nav ul {
     padding: 0;
-    margin: 0; }
+    margin: 0;}
     .r-footer .r-footer-block .r-footer-nav ul li {
       list-style: none;
       position: relative;
@@ -10767,7 +10779,7 @@ COLOR CUSTOMIZER
         top: 12px;
         line-height: 0px; }
       .r-footer .r-footer-block .r-footer-nav ul li a {
-        color: #767676;
+        color: #333333;
         font-size: 15px;
         -webkit-transition: all 0.2s linear;
         -moz-transition: all 0.2s linear;
@@ -10776,7 +10788,7 @@ COLOR CUSTOMIZER
         .r-footer .r-footer-block .r-footer-nav ul li a:hover {
           color: #ffcd00; }
   .r-footer .r-footer-block .r-footer-map {
-    margin-bottom: 70px; }
+    margin-bottom: 20px; }
     .r-footer .r-footer-block .r-footer-map a {
       background: #ffcd00;
       display: inline-block;
@@ -10801,7 +10813,7 @@ COLOR CUSTOMIZER
     padding: 40px 0;
     border-top: 1px solid #eeeeee;
     margin-top: 90px;
-    color: #bababa;
+    color: #333333;
     font-size: 15px; }
     .r-footer .r-footer-strip strong {
       font-weight: 600; }
@@ -10815,14 +10827,14 @@ COLOR CUSTOMIZER
         .r-footer .r-footer-strip ul li + li {
           margin-left: 35px; }
         .r-footer .r-footer-strip ul li a {
-          color: #bababa;
+          color: #333333;
           font-size: 15px;
           -webkit-transition: all 0.2s linear;
           -moz-transition: all 0.2s linear;
           -ms-transition: all 0.2s linear;
           transition: all 0.2s linear; }
           .r-footer .r-footer-strip ul li a:hover {
-            color: #ffcd00; }
+            color: #028cca; }
           .r-footer .r-footer-strip ul li a i {
             margin: 2px; }
         .r-footer .r-footer-strip ul li span {
@@ -13631,7 +13643,7 @@ a:focus {
   flex: 0 0 100%; }
 
 .r-car-showcase-wrapper {
-  padding: 90px 0; }
+  padding: 90px 0;}
   .r-car-showcase-wrapper .r-best-offer-list .r-best-offer-single ul li {
     background-color: #fff; }
   .r-car-showcase-wrapper .r-best-vehicles {
