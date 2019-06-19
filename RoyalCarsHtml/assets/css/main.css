@@ -11551,7 +11551,7 @@ div.r-who-we-outer {
 
 /*get-in-touch*/
 .r-get-in-touch {
-  background: url(../images/keep-in-touch.jpg) left top no-repeat;
+  background: url(../images/S408-PageBackground.jpg) left top no-repeat;
   background-repeat: no-repeat;
   padding: 170px 0 150px;
   background-size: cover;
@@ -11601,12 +11601,12 @@ div.r-who-we-outer {
       margin-bottom: 0; }
       .r-get-in-touch .r-get-form .form-group input {
         float: left;
-        color: #fff;
+        color: rgb(51, 51, 51);
         width: 100%;
         font-family: "Poppins", sans-serif;
         line-height: 60px;
         padding: 0 25px;
-        background: rgba(51, 51, 51, 0.9);
+        background: rgba(238, 238, 238, 0.7);
         border: none;
         margin-bottom: 10px; }
         .r-get-in-touch .r-get-form .form-group input:focus {
@@ -11614,12 +11614,12 @@ div.r-who-we-outer {
           outline: none; }
       .r-get-in-touch .r-get-form .form-group textarea {
         float: left;
-        color: #fff;
+        color: rgb(51, 51, 51);
         width: 100%;
         font-family: "Poppins", sans-serif;
         line-height: 20px;
         padding: 15px 25px;
-        background: rgba(51, 51, 51, 0.9);
+        background: rgba(238, 238, 238, 0.7);
         border: none;
         margin-bottom: 10px;
         min-height: 170px; }
