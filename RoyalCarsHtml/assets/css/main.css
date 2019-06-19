@@ -10105,7 +10105,6 @@ COLOR CUSTOMIZER
   position: relative; }
   .r-header .r-header-strip {
     position: absolute;
-    top: 30px;
     z-index: 9999;
     background: #ffcd00;
     width: 100%; }
