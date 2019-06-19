@@ -49,7 +49,18 @@ ExpiresDefault "access 1 month"
 
 <IfModule mod_expires.c>
 # Enable expirations
-ExpiresActive On 
+ExpiresActive On
 # Default directive
 ExpiresDefault "access plus 1 month"
 </IfModule>
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{REQUEST_URI} !-l
+RewriteCond %{REQUEST_FILENAME} !\.(ico|css|png|jpg|gif|js)$ [NC]
+
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+

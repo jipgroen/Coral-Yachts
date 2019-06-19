@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
       <!-- PAGE TITLE -->
-      <title>Over ons - Coral Yachts</title>
+      <title>Home - Royal Cars</title>
 
       <!-- META-DATA -->
       <meta http-equiv="content-type" content="text/html; charset=utf-8" >
@@ -11,16 +11,10 @@
       <meta name="keywords" content="" >
 
       <!-- FAVICON -->
-      <link rel="shortcut icon" href="assets/images/beeldmerk.png">
+      <link rel="shortcut icon" href="assets/images/favicon.png">
 
       <!-- CSS:: FONTS -->
       <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-
-      <!-- CSS:: ANIMATE -->
-      <link rel="stylesheet" type="text/css" href="assets/css/plugins/animate/animate.css">
-
-      <!-- font:: awsome -->
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
       <!-- CSS:: MAIN -->
       <link rel="stylesheet" type="text/css" href="assets/css/main.css">
@@ -28,6 +22,24 @@
 
   </head>
   <body> 
+     <section id="r-customizer" class="r-customizer">
+            <div class="r-selector"> 
+                  <span class="d-block text-center">Color Options</span>
+                  <div class="r-color_section r-color_block">
+                        <ul class="r-color_selector" id="r-color_selector">
+                            <li class="r-color_1" data-attr="color-01"></li>
+                            <li class="r-color_6" data-attr="color-06"></li>
+                            <li class="r-color_2" data-attr="color-02"></li>
+                            <li class="r-color_3" data-attr="color-03"></li>
+                            <li class="r-color_4" data-attr="color-04"></li>
+                            <li class="r-color_5" data-attr="color-05"></li>
+                            <li class="r-color_7" data-attr="color-07"></li>
+                            <li class="r-color_8" data-attr="color-08"></li>
+                        </ul>
+                  </div>  
+            </div>
+            <i id="r-selector_icon" class="fa fa-cog"></i>
+      </section>
       <div class="r-wrapper">
         <header>
           <div class="r-header r-header-inner">
@@ -36,24 +48,54 @@
                 <div class="row clearfix">
                   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="r-logo">
-                      <a href="index.html" class="d-inline-block"><img src="assets/images/logo_small.png" class="img-fluid d-block" alt=""></a>
+                      <a href="index.html" class="d-inline-block"><img src="assets/images/logo.png" class="img-fluid d-block" alt=""></a>
                     </div>
                     <a href="javaScript:void(0)" class="menu-icon"> <i class="fa fa-bars"></i> </a>
                   </div>
-                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-xs-12"> 
+                    <div class="r-header-action float-right">
+                      <a href="login-register.html"> <img src="assets/images/icon-lock.png" alt='' /> <span>Login</span></a>
+                      <a href="#" class="r-search"> <img src="assets/images/icon-search.png" alt='' /> <span>Search</span></a>
+
+                      <div class="r-search-wrapper">
+                        <div class="r-search-inner">
+                          <form>
+                              <input type="text" class="r-search-field" placeholder="Search"/>
+                              <button type="submit" class="r-search-btn">
+                                <i class="fa fa-search"></i>
+                              </button>
+                          </form>
+                        </div>
+                      </div> <!-- /r-search-wrapper -->
+                    </div>
                     <div class="r-nav-section float-right">
                       <nav>
                         <ul>
-                          <li>
+                          <li class="r-has-child">
                             <a href="index.html">HOME</a>
+                            <ul class="pl-0 ml-0">
+                              <li><a href="index.html">Home 01</a></li>
+                              <li><a href="index-02.html">Home 02</a></li>
+                              <li><a href="index-03.html">Home 03</a></li>
+                              <li><a href="index-04.html">Home 04</a></li>
+                            </ul>
                           </li>
-                          <li>
-                            <a href="about.html">OVER ONS</a>
+                          <li class="r-has-child">
+                            <a href="about.html">ABOUT US</a>
+                            <ul class="pl-0 ml-0">
+                              <li><a href="faq.html">Faq</a></li>
+                            </ul>
                           </li>
-                          <li>
-                            <a href="boot-overzicht.html">RESERVEREN</a>
+                          <li class="r-has-child">
+                            <a href="car-listing.html">VEHICLES</a>
+                            <ul class="pl-0 ml-0">
+                              <li><a href="car-list-map.html">Car List Map</a></li>
+                              <li><a href="car-booking.html">Car Booking</a></li>
+                            </ul>
                           </li>
-                          <li><a href="contact.html">CONTACT</a></li>
+                          <li><a href="gallery.html">GALLERY</a></li>
+                          <li><a href="drivers.html">DRIVERS</a></li>
+                          <li><a href="contact.html">CONTACT US</a></li>
                         </ul>
                       </nav>
                     </div>
@@ -63,11 +105,11 @@
             </div>
             <div class="r-header-inner-banner">
               <div class="r-header-in-over">
-                <h1>Coral Yachts<b> Boten.</b> </h1>
+                <h1><b>About</b> Royal Cars </h1>
                 <div class="r-breadcrum">
                   <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><span>OVER ONS</span></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><span>ABOUT US</span></li>
                   </ul>
                 </div>
               </div>
@@ -79,13 +121,13 @@
             <div class="row clearfix">
               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-6">
                 <div class="r-welcome-msg">
-                  <span>3+ BOTEN BESCHIKBAAR</span>
-                  Welkom bij <b>Coral Yachts.</b>
+                  <span>120+ CARS TYPE & BRANDS</span>
+                  Welcome to <b>Royal Cars.</b>
                 </div>
               </div>
               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-6">
                 <div class="r-welcome-text">
-                  Bent u op zoek naar een mooie moderne boot? Maar wilt u niet teveel betalen dan bent u bij ons aan het juiste adres. Al vanaf €39,- per dag kunt u bij ons terecht voor een boot.
+                  We know the difference is in the details and that’s why our car rental services, in the tourism and business industry, stand out for their quality and good taste.
                 </div>
               </div>
             </div>
@@ -106,11 +148,12 @@
             <div class="row clearfix">
               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-6">
                 <div class="r-welcome-msg">
-                  Ons princiepe draait om iedereen eind van de dag een leuke ervaring te geven. U kunt bij ons terecht voor het huren van boten, maar ook voor excursies.                </div>
+                  We know the difference is in the details and that’s why our car rental services, in the tourism and business industry, stand out for their quality and good taste Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                </div>
               </div>
               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-6">
                 <div class="r-video-right">
-                  <em>Wij zijn voorzien van de nieuwste soort boten, met de nieuwste technische snufjes. Bent u op zoek naar een grote of toch een kleine boot het maakt voor ons niet uit.</em>
+                  <em>We know the difference is in the details and that’s why our car rental services, in the tourism and business industry, stand out for their quality and good taste.</em>
                 </div>
               </div>
             </div>
@@ -120,16 +163,114 @@
         <div id="r-insurance-part" class="r-insurance-part">
           <div class="container">
             <div class="row clearfix">
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="r-insurance-box">
+                  <div class="icon">
+                    <img src="assets/images/offer-icon-5.png" alt="" class="img-fluid" />
+                  </div>
+                  <div class="r-head">Million Staffs</div>
+                  Our staff can picking you anywhere anytime
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="r-insurance-box">
+                  <div class="icon">
+                    <img src="assets/images/offer-icon-6.png" alt="" class="img-fluid" />
+                  </div>
+                  <div class="r-head">Free Insurance</div>
+                  Rent a car 3 days & get free insurance
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="r-insurance-box">
+                  <div class="icon">
+                    <img src="assets/images/offer-icon-7.png" alt="" class="img-fluid" />
+                  </div>
+                  <div class="r-head">Trusted Rent</div>
+                  We working since 1980 with 4.000 customers
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="r-insurance-box">
+                  <div class="icon">
+                    <img src="assets/images/offer-icon-8.png" alt="" class="img-fluid" />
+                  </div>
+                  <div class="r-head">All Type Cars</div>
+                  We have all brand & type cars in our garage
+                </div>
+              </div>
+            </div>
+            <div class="r-insurance-btn-part">
+              <a href="" title="" class="btn-primary">VIEW ALL VEHICLES</a>
+              <a href="" title="" class="btn-default">RESERVED CAR</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="r-counter-section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-4 col-sm-6">
+                      <div class="r-counter-box">
+                          <div class="r-counter-icon">
+                              <img src="assets/images/icon-happy-customer.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="r-counts">
+                              1.172.700
+                          </div>
+                          <span class="r-count-title"> HAPPY CUSTOMERS </span>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-4 col-sm-6">
+                      <div class="r-counter-box">
+                          <div class="r-counter-icon">
+                              <img src="assets/images/icon-cars-count.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="r-counts">
+                              2.450
+                          </div>
+                          <span class="r-count-title"> CARS IN GARAGE </span>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-4 col-sm-6">
+                      <div class="r-counter-box">
+                          <div class="r-counter-icon">
+                              <img src="assets/images/icon-total-km.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="r-counts">
+                              1.211.100
+                          </div>
+                          <span class="r-count-title"> TOTAL KILOMETER/MIL </span>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-4 col-sm-6">
+                      <div class="r-counter-box">
+                          <div class="r-counter-icon">
+                              <img src="assets/images/icon-car-center.png" alt="" class="img-fluid" />
+                          </div>
+                          <div class="r-counts">
+                              47.250
+                          </div>
+                          <span class="r-count-title"> CAR CENTER SOLUTIONS </span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
         <section id="r-drivers-part" class="r-drivers-part">
           <div class="container">
             <div class="row clearfix">
               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <h3>Onze Schippers</h3>
+                <h3>Our Drivers.</h3>
               </div>
               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="r-driver-detail">
-                  <div class="r-head">Jip Groen <span>Leerling Kapitein</span></div>
-                  <div class="r-driver-text">Elke kapitein beschikt over zijn eigen vaardigheden. En iedereen kent weer andere plekken. Zo kunt u kiezen uit meerdere mogelijkheden en ervaringen.</div>
+                  <div class="r-head">Roberto Garcia <span>5 Years Experienced as Driver</span></div>
+                  <div class="r-driver-text">We know the difference is in the details and that’s why our car rental services, in the tourism and business industry, stand out for their quality and good taste.</div>
                   <div class="r-driver-icon">
                     <ul>
                       <li><i class="fa fa-facebook" aria-hidden="true"></i> <span>facebook</span></li>
@@ -147,8 +288,8 @@
                 <div class="r-driver-box">
                   <div class="r-drivers">
                     <div class="r-drivers-detail">
-                      <div class="name">Mostafa <br>Azimi</div>
-                      <div class="text">3 Jaar Ervaring</div>
+                      <div class="name">Luis <br>Henrique</div>
+                      <div class="text">5 Years Experience</div>
                       <div class="icon">
                           <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
                           <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
@@ -163,8 +304,8 @@
                 <div class="r-driver-box">
                   <div class="r-drivers">
                     <div class="r-drivers-detail">
-                      <div class="name">Steven <br>van Wingerden</div>
-                      <div class="text">5 Jaar Ervaring</div>
+                      <div class="name">Luis <br>Henrique</div>
+                      <div class="text">5 Years Experience</div>
                       <div class="icon">
                           <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
                           <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
@@ -179,8 +320,8 @@
                 <div class="r-driver-box">
                   <div class="r-drivers">
                     <div class="r-drivers-detail">
-                      <div class="name">Daniël <br>Stouthamer</div>
-                      <div class="text">5 Jaar Ervaring</div>
+                      <div class="name">Luis <br>Henrique</div>
+                      <div class="text">5 Years Experience</div>
                       <div class="icon">
                           <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
                           <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
@@ -195,8 +336,8 @@
                 <div class="r-driver-box">
                   <div class="r-drivers">
                     <div class="r-drivers-detail">
-                      <div class="name">Groen <br>Jip</div>
-                      <div class="text">5 Jaar Ervaring</div>
+                      <div class="name">Luis <br>Henrique</div>
+                      <div class="text">5 Years Experience</div>
                       <div class="icon">
                           <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
                           <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
@@ -211,8 +352,8 @@
                 <div class="r-driver-box">
                   <div class="r-drivers">
                     <div class="r-drivers-detail">
-                      <div class="name">Azimi <br>Mostafa</div>
-                      <div class="text">5 Jaar Ervaring</div>
+                      <div class="name">Luis <br>Henrique</div>
+                      <div class="text">5 Years Experience</div>
                       <div class="icon">
                           <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
                           <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
@@ -227,8 +368,8 @@
                 <div class="r-driver-box">
                   <div class="r-drivers">
                     <div class="r-drivers-detail">
-                      <div class="name">Stouthamer <br>Daniël</div>
-                      <div class="text">5 Jaar Ervaring</div>
+                      <div class="name">Luis <br>Henrique</div>
+                      <div class="text">5 Years Experience</div>
                       <div class="icon">
                           <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
                           <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
@@ -243,8 +384,8 @@
                 <div class="r-driver-box">
                   <div class="r-drivers">
                     <div class="r-drivers-detail">
-                      <div class="name">Wingerden <br>Steven</div>
-                      <div class="text">5 Jaar Ervaring</div>
+                      <div class="name">Luis <br>Henrique</div>
+                      <div class="text">5 Years Experience</div>
                       <div class="icon">
                           <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
                           <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
@@ -264,50 +405,60 @@
           <div class="r-get-in-touch">
             <div class="container">
               <div class="r-get-header">
-                <span>NEEM CONTACT MET ONS OP</span>
-                <h2>Blijf <b>in contact.</b></h2>
+                <span>CONTACT US NOW</span>
+                <h2>Keep <b>In Touch.</b></h2>
               </div>
               <div class="r-get-form">
                 <form action="#">
                   <div class="clearfix">
-                    <div class="form-group"><input type="text" placeholder="Gebruikersnaam"></div>
+                    <div class="form-group"><input type="text" placeholder="User name"></div>
                     <div class="form-group"><input type="email" placeholder="Email Address"></div>
                   </div>
-                  <div class="form-group"><input type="email" placeholder="Onderwerp"></div>
+                  <div class="form-group"><input type="email" placeholder="Title Message"></div>
                   <div class="form-group">
-                    <textarea placeholder="Uw bericht..."></textarea>
+                    <textarea placeholder="Message"></textarea>
                   </div>
                   <div class="text-center">
-                    <button class="btn btn-full">Verzend uw bericht</button>
+                    <button class="btn btn-full">SEND MESSAGE NOW</button>
                   </div>
                 </form>
               </div>
             </div>
           </div>
         </section>
-              </div></div></div>
-         <footer>
+        <footer>
           <div class="r-footer">
             <div class="container">
               <div class="row clearfix">
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
                   <div class="r-footer-block">
-                    <img src="assets/images/logo_small.png" class="d-block img-fluid" alt="">
+                    <img src="assets/images/footer-logo.png" class="d-block img-fluid" alt="">
                     <p>
-                        <i>“Mooie boten voor een mooie prijs!!”</i>
+                      We know the difference is in the details and that’s why our car rental services, in the tourism and business industry, stand out for their quality.
                     </p>
+                    <form action="#">
+                      <div class="r-newsletter">
+                        <input type="email" placeholder="Subscribe Newsletter">
+                        <button class="btn"><i class="fa fa-envelope"></i></button>
+                      </div>
+                    </form>
                   </div>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12" style="padding-left: 60px;">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
                   <div class="r-footer-block">
+                    <div class="r-footer-widget r-footer-phone">
+                      <span><i class="fa fa-phone"></i> CALL US ON LINE 1</span>
+                      <h5>100.1212.2000</h5>
+                    </div>
                     <div class="r-footer-widget r-footer-nav">
-                      <h6>NAVIGEER NAAR</h6>
+                      <h6>USEFUL LINK</h6>
                       <nav>
                         <ul>
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="about.html">Over ons</a></li>
-                          <li><a href="boot-overzicht.html">Boten</a></li>
-                          <li><a href="contact.html">Contact</a></li>
+                          <li><a href="#">Private Policy</a></li>
+                          <li><a href="#">Term & Conditions</a></li>
+                          <li><a href="#">Copyright Notification</a></li>
+                          <li><a href="#">Register for New Member</a></li>
+                          <li><a href="#">Press Release</a></li>
                         </ul>
                       </nav>
                     </div>
@@ -315,14 +466,19 @@
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
                   <div class="r-footer-block">
+                    <div class="r-footer-widget r-footer-phone">
+                      <span><i class="fa fa-phone"></i> CALL US ON LINE 2</span>
+                      <h5>100.2424.2000</h5>
+                    </div>
                     <div class="r-footer-widget r-footer-nav">
-                      <h6>BOTEN</h6>
+                      <h6>OUR INFO</h6>
                       <nav>
                         <ul>
-                          <li ><a href="index.html">Pedom 3</a></li>
-                          <li><a href="about.html">Ohana 4</a></li>
-                          <li><a href="boot-overzicht.html">Destiny Z</a></li>
-                          <li><a href="contact.html">Boat 4</a></li>
+                          <li><a href="#">About Royal Cars</a></li>
+                          <li><a href="#">Our Mission & Strategy</a></li>
+                          <li><a href="#">Our Vision</a></li>
+                          <li><a href="#">Royal Cars Advantages</a></li>
+                          <li><a href="#">Contact Us</a></li>
                         </ul>
                       </nav>
                     </div>
@@ -330,14 +486,18 @@
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
                   <div class="r-footer-block">
+                    <div class="r-footer-widget r-footer-map">
+                      <a href="#"> <img src="assets/images/icon-footer-map.png" class="icon" alt=''/> RoyalCars on Map</a>
+                    </div>
                     <div class="r-footer-widget r-footer-nav">
-                      <h6>INFO</h6>
+                      <h6>ACCOUNT INFORMATION</h6>
                       <nav>
                         <ul>
-                          <i class="fas fa-star"> Coral Yachts</i><br>
-                          <i class="fas fa-phone"> 06-12345678</i><br>
-                          <i class="fas fa-building"> Kaasstraat 123, Amsterdam</i><br>
-                          <i class="fas fa-university"> BTW nr. 12345678</i>
+                          <li><a href="#">Login to My Account</a></li>
+                          <li><a href="#">Press Releases</a></li>
+                          <li><a href="#">User Dashboard</a></li>
+                          <li><a href="#">Email Address</a></li>
+                          <li><a href="#">Lorem Ipsum dolorsit</a></li>
                         </ul>
                       </nav>
                     </div>
@@ -345,8 +505,15 @@
                 </div>
               </div>
               <div class="row clearfix r-footer-strip">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                 ©2019 Created by Florido Schetsers
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                 ©2018 Created by jThemes Studio
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                 <ul>
+                   <li><a href="#"><i class="fa fa-facebook"></i>. <span>Facebook</span></a></li>
+                   <li><a href="#"><i class="fa fa-twitter"></i>.<span>Twitter</span></a></li>
+                   <li><a href="#"><i class="fa fa-instagram"></i>.<span>Instagram</span></a></li>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -354,16 +521,8 @@
         </footer>
       </div>
       <div id="r-to-top" class="r-to-top"><i class="fa fa-angle-up"></i></div>
-
       <!-- JQUERY:: JQUERY.JS -->
       <script src="assets/js/jquery.min.js"></script>
-
-      <!-- JQUERY:: APPEAR.JS -->
-      <script src="assets/js/plugins/appear/appear.js"></script>
-
-      <!-- JQUERY:: COUNTER.JS -->
-      <script src="assets/js/plugins/counter/jquery.easing.min.js"></script>
-      <script src="assets/js/plugins/counter/counter.min.js"></script>
 
       <!-- JQUERY:: BOOTSTRAP.JS -->
       <script src="assets/js/tether.min.js"></script>
@@ -371,14 +530,9 @@
 
       <!-- JQUERY:: PLUGINS -->
       <script src="assets/js/plugins/owl/owl.carousel.min.js"></script>
-      <script src="assets/js/plugins/lightcase/lightcase.js"></script>
 
 
-      <!-- JQUERY:: MAP -->
-      <script src="assets/js/map.js"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl-EDTJ5_uU3zBIX7-wNTu-qSZr1DO5Dw"></script>
-
-      <!-- JQUERY:: CUSTOM.JS -->
+    <!-- JQUERY:: CUSTOM -->
       <script src="assets/js/custom.js"></script>
 
   </body>
