@@ -1,6 +1,7 @@
 <?php
 include "C:/xampp\htdocs\yacht\RoyalCarsHtml\Model/boot.php";
 $data = new getData();
+$item = new items();
 
 $url = explode("/", $_GET['url']);
 $bootId = $url[1];
@@ -17,34 +18,11 @@ if ($items->num_rows == 1) {
     <!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <head>
-        <!-- PAGE TITLE -->
-        <title>Home - Coral Yachts</title>
-
-        <!-- META-DATA -->
-        <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-
-        <!-- FAVICON -->
-        <link rel="shortcut icon" href="<?php echo $database->getHost() ?>assets/images/beeldmerk.png">
-
-        <!-- CSS:: FONTS -->
-        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-
-        <!-- CSS:: ANIMATE -->
-        <link rel="stylesheet" type="text/css"
-              href="<?php echo $database->getHost() ?>assets/css/plugins/animate/animate.css">
-
-        <!-- CSS:: MAIN -->
-        <link rel="stylesheet" type="text/css" href="<?php echo $database->getHost() ?>assets/css/main.css">
-        <link rel="stylesheet" type="text/css" id="r-color-roller"
-              href="<?php echo $database->getHost() ?>assets/color-files/color-08.css">
-
+        <?php echo $item->headerTag($url[0]) ?>
     </head>
     <body>
     <div class="r-wrapper">
-        <?php echo $database->printHeader(); ?>
+        <?php echo $item->Header(); ?>
         <section class="r-car-info-wrapper">
             <div class="container">
                 <div class="r-car-info-header clearfix">

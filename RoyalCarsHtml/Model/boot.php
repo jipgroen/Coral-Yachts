@@ -57,9 +57,6 @@ class boot
         return explode(",", $this->foto);
     }
 
-    /**
-     * @return mixed
-     */
     public function getServices()
     {
         return $this->services;
@@ -70,17 +67,11 @@ class boot
         return $this->model;
     }
 
-    /**
-     * @return mixed
-     */
     public function getBeschrijving()
     {
         return $this->beschrijving;
     }
 
-    /**
-     * @return mixed
-     */
     public function getFoto()
     {
         return $this->foto;

@@ -1,5 +1,4 @@
 <?php
-include "C:/xampp\htdocs\yacht\RoyalCarsHtml\Controller/tools.php";
 
 class database extends tools
 {
@@ -17,9 +16,7 @@ class database extends tools
         $dbpass = "";
         $db = "yachten";
 
-
         $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $db);
-
 
         return $conn;
     }

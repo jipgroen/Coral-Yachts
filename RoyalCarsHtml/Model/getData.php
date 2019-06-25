@@ -1,7 +1,6 @@
 <?php
 
 
-include "C:/xampp\htdocs\yacht\RoyalCarsHtml\View/items.php";
 
 class getData
 {
