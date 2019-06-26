@@ -154,7 +154,7 @@ if ($items->num_rows == 1) {
                                             <div class="form-group">
                                                 <label>Locatie</label>
                                                 <div class="input-group">
-                                                    <select class="form-control">
+                                                    <select class="form-control" id="current-location">
                                                         <?php echo $data->getLocaties($boot->getLocatie()); ?>
                                                     </select>
                                                     <span class="input-group-addon"><i
@@ -166,7 +166,7 @@ if ($items->num_rows == 1) {
                                             <div class="form-group">
                                                 <label>Drop Off Address</label>
                                                 <div class="input-group">
-                                                    <select class="form-control">
+                                                    <select class="form-control" id="new-location">
                                                         <?php echo $data->getLocaties($boot->getLocatie(), true); ?>
                                                     </select>
                                                     <span class="input-group-addon"><i
@@ -178,7 +178,8 @@ if ($items->num_rows == 1) {
                                             <div class="form-group">
                                                 <label>Begin datum </label>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="dd.mm.yy"/>
+                                                    <input type="text" class="form-control" placeholder="dd.mm.yy"
+                                                           id="begin-datum"/>
                                                     <span class="input-group-addon"><i
                                                                 class="fa fa-calendar"></i></span>
                                                 </div>
@@ -188,27 +189,8 @@ if ($items->num_rows == 1) {
                                             <div class="form-group">
                                                 <label>Eind datum </label>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="dd.mm.yy"/>
-                                                    <span class="input-group-addon"><i
-                                                                class="fa fa-calendar"></i></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-12 col-xs-12">
-                                            <div class="form-group">
-                                                <label>Begin tijd </label>
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="12.00"/>
-                                                    <span class="input-group-addon"><i
-                                                                class="fa fa-calendar"></i></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-12 col-xs-12">
-                                            <div class="form-group">
-                                                <label>Eind tijd </label>
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="12.00"/>
+                                                    <input type="text" class="form-control" placeholder="dd.mm.yy"
+                                                           id="eind-datum"/>
                                                     <span class="input-group-addon"><i
                                                                 class="fa fa-calendar"></i></span>
                                                 </div>
@@ -236,8 +218,8 @@ if ($items->num_rows == 1) {
                                                         <label>
                                                             <?php echo $service[0] ?>
                                                             <span class="r-extra-fee"> $ <?php echo $service[1] ?></span>
-                                                            <input value="service-<?php echo $service[3] ?>"
-                                                                   type="checkbox"/>
+                                                            <input value="<?php echo $service[2] ?>"
+                                                                   type="checkbox" class="extras"/>
                                                             <span class="r-site-checkbox-icon"> <i
                                                                         class="fa fa-check-square"></i> </span>
                                                         </label>
@@ -271,13 +253,13 @@ if ($items->num_rows == 1) {
                                                 <div class="r-site-checkbox">
                                                     <label>
                                                         Meneer
-                                                        <input type="checkbox"/>
+                                                        <input type="radio" class="gender" name="gender" value="m"/>
                                                         <span class="r-site-checkbox-icon"> <i
                                                                     class="fa fa-check-square"></i> </span>
                                                     </label>
                                                     <label>
                                                         Mevrouw
-                                                        <input type="checkbox"/>
+                                                        <input type="radio" class="gender" name="gender" value="v"/>
                                                         <span class="r-site-checkbox-icon"> <i
                                                                     class="fa fa-check-square"></i> </span>
                                                     </label>
@@ -288,26 +270,28 @@ if ($items->num_rows == 1) {
                                         <div class="col-md-6 col-sm-12">
                                             <div class="form-group">
                                                 <label>Voornaam</label>
-                                                <input type="text" class="form-control" placeholder="Voornaam"/>
+                                                <input type="text" class="form-control" id="voornaam"
+                                                       placeholder="Voornaam"/>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-sm-12">
                                             <div class="form-group">
                                                 <label>Achternaam</label>
-                                                <input type="text" class="form-control" placeholder="Achternaam"/>
+                                                <input type="text" class="form-control" id="achternaam"
+                                                       placeholder="Achternaam"/>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-sm-12">
                                             <div class="form-group">
                                                 <label>Email adress</label>
-                                                <input type="text" class="form-control"
+                                                <input type="text" class="form-control" id="email"
                                                        placeholder="Voorbeeld@gmail.com"/>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-sm-12">
                                             <div class="form-group">
                                                 <label>Telefoonnummer</label>
-                                                <input type="text" class="form-control" placeholder=""/>
+                                                <input type="text" class="form-control" placeholder="" id="telefoon"/>
                                             </div>
                                         </div>
 
@@ -325,50 +309,31 @@ if ($items->num_rows == 1) {
                             <div class="r-accordion-body">
                                 <form>
                                     <div class="r-payment-options">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-12">
-                                                <div class="r-site-checkbox">
-                                                    <label>
-                                                        <input type="checkbox"/>
-                                                        <span class="r-site-checkbox-icon"> <i
-                                                                    class="fa fa-check-square"></i> </span>
-                                                        <span class="r-site-checkbox-text">Direct bank Transfer</span>
-                                                    </label>
+
+                                        <?php
+                                        $items = array('naam', 'id');
+                                        $response = $database->get('betaalmogelijkheden', $items);
+                                        foreach ($response
+
+                                                 as $betaalmogelijkheden) {
+                                            ?>
+                                            <div class="row">
+                                                <div class="col-md-6 col-sm-12">
+                                                    <div class="r-site-checkbox">
+                                                        <label>
+                                                            <input value="<?php echo $betaalmogelijkheden['id'] ?>"
+                                                                   type="radio" name="betaal-methode"
+                                                                   class="betaal-methode"/>
+                                                            <span class="r-site-checkbox-icon"> <i
+                                                                        class="fa fa-check-square"></i> </span>
+                                                            <span class="r-site-checkbox-text"><?php echo $betaalmogelijkheden['naam'] ?></span>
+                                                        </label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 col-sm-12">
-                                                <div class="r-site-checkbox">
-                                                    <label>
-                                                        <input type="checkbox"/>
-                                                        <span class="r-site-checkbox-icon"> <i
-                                                                    class="fa fa-check-square"></i> </span>
-                                                        <span class="r-site-checkbox-text">Credit Card</span>
-                                                    </label>
-                                                    <img src="assets/images/payment-icons.jpg" alt="" class=""/>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-sm-12">
-                                                <div class="r-site-checkbox">
-                                                    <label>
-                                                        <input type="checkbox"/>
-                                                        <span class="r-site-checkbox-icon"> <i
-                                                                    class="fa fa-check-square"></i> </span>
-                                                        <span class="r-site-checkbox-text">Cheque Payment</span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-sm-12">
-                                                <div class="r-site-checkbox">
-                                                    <label>
-                                                        <input type="checkbox"/>
-                                                        <span class="r-site-checkbox-icon"> <i
-                                                                    class="fa fa-check-square"></i> </span>
-                                                        <span class="r-site-checkbox-text">Paypal</span>
-                                                    </label>
-                                                    <img src="assets/images/paypal-icon.jpg" alt="" class=""/>
-                                                </div>
-                                            </div>
-                                        </div>
+                                            <?php
+                                        }
+                                        ?>
                                     </div>
                                 </form>
                             </div>
@@ -384,7 +349,7 @@ if ($items->num_rows == 1) {
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <textarea class="form-control" placeholder="Extra gegevens"></textarea>
+                                                <textarea id="extra-gegevens" class="form-control" placeholder="Extra gegevens"></textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -412,312 +377,6 @@ if ($items->num_rows == 1) {
                         </div>
                     </div>
                 </div>
-
-                <div class="r-similar-product">
-                    <h2 class="heading"> Similar Cars </h2>
-                    <div class="r-best-offer-list owl-carousel" id="similarProductCarousel">
-                        <div class="r-best-offer-single">
-                            <div class="r-best-offer-in">
-                                <div class="r-offer-img">
-                                    <a class="d-inline-block" href="#"><img src="assets/images/car-1.png"
-                                                                            class="img-fluid d-block m-auto" alt=""></a>
-                                    <div class="r-offer-img-over">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                </div>
-                                <div class="r-best-offer-content">
-                                    <a href="#"><b>Volkswagen</b> GTR</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
-                                </div>
-                                <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="r-best-offer-single">
-                            <div class="r-best-offer-in">
-                                <div class="r-offer-img">
-                                    <a class="d-inline-block" href="#"><img src="assets/images/car-6.png"
-                                                                            class="img-fluid d-block m-auto" alt=""></a>
-                                    <div class="r-offer-img-over">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                </div>
-                                <div class="r-best-offer-content">
-                                    <a href="#"><b>Audi</b> S8</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
-                                </div>
-                                <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="r-best-offer-single">
-                            <div class="r-best-offer-in">
-                                <div class="r-offer-img">
-                                    <a class="d-inline-block" href="#"><img src="assets/images/car-3.png"
-                                                                            class="img-fluid d-block m-auto" alt=""></a>
-                                    <div class="r-offer-img-over">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                </div>
-                                <div class="r-best-offer-content">
-                                    <a href="#"><b>Nissan</b> Skyline</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
-                                </div>
-                                <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="r-best-offer-single">
-                            <div class="r-best-offer-in">
-                                <div class="r-offer-img">
-                                    <a class="d-inline-block" href="#"><img src="assets/images/car-1.png"
-                                                                            class="img-fluid d-block m-auto" alt=""></a>
-                                    <div class="r-offer-img-over">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                </div>
-                                <div class="r-best-offer-content">
-                                    <a href="#"><b>Mercedes</b> GTR3</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
-                                </div>
-                                <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="r-best-offer-single">
-                            <div class="r-best-offer-in">
-                                <div class="r-offer-img">
-                                    <a class="d-inline-block" href="#"><img src="assets/images/car-1.png"
-                                                                            class="img-fluid d-block m-auto" alt=""></a>
-                                    <div class="r-offer-img-over">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                </div>
-                                <div class="r-best-offer-content">
-                                    <a href="#"><b>Volkswagen</b> GTR</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
-                                </div>
-                                <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="r-best-offer-single">
-                            <div class="r-best-offer-in">
-                                <div class="r-offer-img">
-                                    <a class="d-inline-block" href="#"><img src="assets/images/car-6.png"
-                                                                            class="img-fluid d-block m-auto" alt=""></a>
-                                    <div class="r-offer-img-over">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                </div>
-                                <div class="r-best-offer-content">
-                                    <a href="#"><b>Audi</b> S8</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
-                                </div>
-                                <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="r-best-offer-single">
-                            <div class="r-best-offer-in">
-                                <div class="r-offer-img">
-                                    <a class="d-inline-block" href="#"><img src="assets/images/car-3.png"
-                                                                            class="img-fluid d-block m-auto" alt=""></a>
-                                    <div class="r-offer-img-over">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                </div>
-                                <div class="r-best-offer-content">
-                                    <a href="#"><b>Nissan</b> Skyline</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
-                                </div>
-                                <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="r-best-offer-single">
-                            <div class="r-best-offer-in">
-                                <div class="r-offer-img">
-                                    <a class="d-inline-block" href="#"><img src="assets/images/car-1.png"
-                                                                            class="img-fluid d-block m-auto" alt=""></a>
-                                    <div class="r-offer-img-over">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                </div>
-                                <div class="r-best-offer-content">
-                                    <a href="#"><b>Mercedes</b> GTR3</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
-                                </div>
-                                <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="r-best-offer-single">
-                            <div class="r-best-offer-in">
-                                <div class="r-offer-img">
-                                    <a class="d-inline-block" href="#"><img src="assets/images/car-1.png"
-                                                                            class="img-fluid d-block m-auto" alt=""></a>
-                                    <div class="r-offer-img-over">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                </div>
-                                <div class="r-best-offer-content">
-                                    <a href="#"><b>Volkswagen</b> GTR</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
-                                </div>
-                                <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="r-best-offer-single">
-                            <div class="r-best-offer-in">
-                                <div class="r-offer-img">
-                                    <a class="d-inline-block" href="#"><img src="assets/images/car-6.png"
-                                                                            class="img-fluid d-block m-auto" alt=""></a>
-                                    <div class="r-offer-img-over">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                </div>
-                                <div class="r-best-offer-content">
-                                    <a href="#"><b>Audi</b> S8</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
-                                </div>
-                                <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="r-best-offer-single">
-                            <div class="r-best-offer-in">
-                                <div class="r-offer-img">
-                                    <a class="d-inline-block" href="#"><img src="assets/images/car-3.png"
-                                                                            class="img-fluid d-block m-auto" alt=""></a>
-                                    <div class="r-offer-img-over">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                </div>
-                                <div class="r-best-offer-content">
-                                    <a href="#"><b>Nissan</b> Skyline</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
-                                </div>
-                                <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="r-best-offer-single">
-                            <div class="r-best-offer-in">
-                                <div class="r-offer-img">
-                                    <a class="d-inline-block" href="#"><img src="assets/images/car-1.png"
-                                                                            class="img-fluid d-block m-auto" alt=""></a>
-                                    <div class="r-offer-img-over">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                </div>
-                                <div class="r-best-offer-content">
-                                    <a href="#"><b>Mercedes</b> GTR3</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
-                                </div>
-                                <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section> <!-- /r-car-info -->
 
         <section id="r-get-in-touch">
@@ -851,6 +510,7 @@ if ($items->num_rows == 1) {
     <script src="<?php echo $database->getHost() ?>assets/js/plugins/owl/owl.carousel.min.js"></script>
     <script src="<?php echo $database->getHost() ?>assets/js/plugins/owl/owl.carousel2.thumbs.js"></script>
     <script src="<?php echo $database->getHost() ?>assets/js/custom.js"></script>
+
 
     </body>
     </html>

@@ -11,9 +11,19 @@ class links extends tools
         $this->urlToView = $this->getHost() . 'View/';
     }
 
-    public function getPageUrl($url)
+    public function getPageUrl($id)
     {
-        return  $this->getHost() . $url;
+        $items = array('page');
+        $response = $this->database->getWhere('pages', $items, 'id', '=', $id);
+        $url = '';
+
+        if ($response->num_rows > 0) {
+            while ($row = $response->fetch_assoc()) {
+                $url = $row['page'];
+            }
+        }
+
+        return $this->getHost() . $url;
     }
 
 

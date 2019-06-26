@@ -6,7 +6,6 @@
  * Time: 13:27
  */
 
-//include "C:/xampp\htdocs\yacht\RoyalCarsHtml\Controller/database.php";
 
 class tools
 {

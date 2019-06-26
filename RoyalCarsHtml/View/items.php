@@ -55,13 +55,13 @@ class items
                     <div class="row clearfix">
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
                             <div class="r-logo">
-                                <a href="index.html" class="d-inline-block"><img src="assets/images/logo_small.png" class="img-fluid d-block" alt=""></a>
+                                <a href="' . $this->links->getHost() . '" class="d-inline-block"><img src="' . $this->links->getHost() . 'assets/images/logo_small.png" class="img-fluid d-block" alt=""></a>
                             </div>
                             <a href="javaScript:void(0)" class="menu-icon"> <i class="fa fa-bars"></i> </a>
                         </div>
                         <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-xs-12">
                         <div class="r-header-action float-right">
-                                <a href="login-register.html"> <img src="assets/images/icon-lock.png" alt=""/> <span>Login</span></a>
+                                <a href="login-register.html"> <img src="' . $this->links->getHost() . 'assets/images/icon-lock.png" alt=""/> <span>Login</span></a>
                                  
                             </div>
                             
@@ -73,12 +73,12 @@ class items
                                             <a href="' . $this->links->getHost() . '">HOME</a>
                                         </li>
                                         <li>
-                                            <a href="' . $this->links->getPageUrl('about') . '">OVER ONS</a>
+                                            <a href="' . $this->links->getPageUrl(1) . '">OVER ONS</a>
                                         </li>
                                         <li>
-                                            <a href="' . $this->links->getPageUrl('bootoverzicht') . '">BOTEN</a>
+                                            <a href="' . $this->links->getPageUrl(4) . '">BOTEN</a>
                                         </li>
-                                        <li><a href="' . $this->links->getPageUrl('contact') . '">CONTACT</a></li>
+                                        <li><a href="' . $this->links->getPageUrl(6) . '">CONTACT</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -129,14 +129,14 @@ class items
                     <div class="row clearfix">
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
                             <div class="r-logo">
-                                <a href="index.html" class="d-inline-block"><img src="assets/images/logo_small.png"
+                                <a href="' . $this->links->getHost() . '" class="d-inline-block"><img src="' . $this->links->getHost() . 'assets/images/logo_small.png"
                                                                                  class="img-fluid d-block" alt=""></a>
                             </div>
                             <a href="javaScript:void(0)" class="menu-icon"> <i class="fa fa-bars"></i> </a>
                         </div>
                         <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-12">
                             <div class="r-header-action float-right">
-                                <a href="login-register.html"> <img src="assets/images/icon-lock.png" alt=""/> <span>Login</span></a>
+                                <a href="login-register.html"> <img src="' . $this->links->getHost() . 'assets/images/icon-lock.png" alt=""/> <span>Login</span></a>
                             </div>
                             <div class="r-nav-section float-right">
                                 <nav>
@@ -145,12 +145,12 @@ class items
                                             <a href="' . $this->links->getHost() . '">HOME</a>
                                         </li>
                                         <li>
-                                            <a href="' . $this->links->getPageUrl('about') . '">OVER ONS</a>
+                                            <a href="' . $this->links->getPageUrl(1) . '">OVER ONS</a>
                                         </li>
                                         <li>
-                                            <a href="' . $this->links->getPageUrl('bootoverzicht') . '">BOTEN</a>
+                                            <a href="' . $this->links->getPageUrl(4) . '">BOTEN</a>
                                         </li>
-                                        <li><a href="' . $this->links->getPageUrl('contact') . '">CONTACT</a></li>
+                                        <li><a href="' . $this->links->getPageUrl(6) . '">CONTACT</a></li>
                                     </ul>
                                 </nav>
                             </div>

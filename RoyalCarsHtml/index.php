@@ -1,9 +1,9 @@
 <?php
-include "C:/xampp\htdocs\yacht\RoyalCarsHtml\Controller/tools.php";
-include "C:/xampp\htdocs\yacht\RoyalCarsHtml\Controller/links.php";
-include "C:/xampp\htdocs\yacht\RoyalCarsHtml\Controller/database.php";
-include "C:/xampp\htdocs\yacht\RoyalCarsHtml\Model/getData.php";
-include "C:/xampp\htdocs\yacht\RoyalCarsHtml\View/items.php";
+include "Controller/tools.php";
+include "Controller/links.php";
+include "Controller/database.php";
+include "Model/getData.php";
+include "View/items.php";
 
 
 $url = explode( "/", $_GET['url']);
