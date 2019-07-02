@@ -26,7 +26,7 @@ $items = new items();
     <!-- CSS:: MAIN -->
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link rel="stylesheet" type="text/css" id="r-color-roller" href="assets/color-files/color-08.css">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
 <div class="r-wrapper">
@@ -35,29 +35,29 @@ $items = new items();
         <div class="r-advantage-main-part">
             <div class="container clearfix">
                 <div class="advantage-head">
-                    <span>120+ CARS TYPE &amp; BRANDS</span>
-                    <h2>Royal Cars <b>Advantages.</b></h2>
+                    <span>10+ BOTEN &amp; MERKEN</span>
+                    <h2>Royal Yachts  <b>Voordelen.</b></h2>
                 </div>
                 <div class="row clearfix">
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="r-advantages-box">
                             <div class="icon"><img src="assets/images/advantage-icon-1.png" alt=""></div>
-                            <div class="head animated pulse">24/7 Customer Online Support</div>
-                            <div class="sub-text">Call us Anywhere Anytime</div>
+                            <div class="head animated pulse">24/7 Online klantenservice </div>
+                            <div class="sub-text">Bell ons elk moment, elke plek</div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="r-advantages-box">
                             <div class="icon"><img src="assets/images/advantage-icon-2.png" alt=""></div>
-                            <div class="head animated pulse">Reservation Anytime You Wants</div>
-                            <div class="sub-text">24/7 Online Reservation</div>
+                            <div class="head animated pulse">Reserveer wanneer u wilt</div>
+                            <div class="sub-text">24/7 Online Reservering</div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="r-advantages-box">
                             <div class="icon"><img src="assets/images/advantage-icon-3.png" alt=""></div>
-                            <div class="head animated pulse">Lots of Picking Locations</div>
-                            <div class="sub-text">250+ Locations</div>
+                            <div class="head animated pulse">Veel opstap locaties</div>
+                            <div class="sub-text">250+ locaties</div>
                         </div>
                     </div>
                 </div>
@@ -76,17 +76,16 @@ $items = new items();
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="r-about-info-content">
                             <div class="r-sec-head r-sec-head-left r-sec-head-line r-sec-head-w pt-0">
-                                <span>KNOW MORE ABOUT US</span>
-                                <h2>Who <b>Royal Cars</b> Are.</h2>
+                                <span>KOM MEER OVER ONS TE WETEN</span>
+                                <h2>Wie <b>Royal Yachts</b> Zijn.</h2>
                             </div>
                             <p>
-                                We know the difference is in the details and that’s why our car rental services, in the
-                                tourism and business industry, stand out for their quality and good taste.
+                                We weten dat het verschil zit in de details en dat is de reden waarom onze autoverhuurbedrijven, in de toeristische en zakelijke sector, opvallen door hun kwaliteit en goede smaak.
                             </p>
                             <ul class="mb-0 pl-0">
-                                <li><i class="fa fa-check-circle"></i> We working since 1980 with 4.000 customers</li>
-                                <li><i class="fa fa-check-circle"></i> All brand & type cars in our garage</li>
-                                <li><i class="fa fa-check-circle"></i> 1.000+ picking locations around the world</li>
+                              <li><i class="fa fa-check-circle"></i> Wij werken sinds 1980 met 4.000 klanten</li>
+                              <li><i class="fa fa-check-circle"></i> Alle Merken & Types boten in onze havens</li>
+                              <li><i class="fa fa-check-circle"></i> 1.000+ Opstap locaties Wereldwijd </li>
                             </ul>
                             <img src="assets/images/about-sign.png" class="img-fluid d-inline-block" alt="">
                         </div>
@@ -98,10 +97,10 @@ $items = new items();
     <section id="r-new-member">
         <div class="r-new-member">
             <div class="container">
-                <div class="r-sec-head r-sec-head-left r-sec-head-line r-sec-head-r pt-0">
-                    <span>NEW MEMBER DISCOUNT</span>
-                    <h2>Reserved Now & Get <b>50% Off</b> <br>for Audi & Mercedes Only.</h2>
-                </div>
+              <div class="r-sec-head r-sec-head-left r-sec-head-line r-sec-head-r pt-0">
+                <span>NIEUWE KLANTEN KORTING</span>
+                <h2>Reserveer nu  & krijg <b>50% korting</b> <br>voor ohana's en triton's .</h2>
+              </div>
                 <div class="row r-discounted-car">
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <div class="r-discount-single">
@@ -121,7 +120,7 @@ $items = new items();
                                 <ul class="pl-0 mb-0 r-car-point clearfix">
                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                    <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
+                                    <li><i class="fas fa-water"></i><span>2.3k CC</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -144,7 +143,7 @@ $items = new items();
                                 <ul class="pl-0 mb-0 r-car-point clearfix">
                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                    <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
+                                    <li><i class="fas fa-water"></i><span>2.3k CC</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -167,7 +166,7 @@ $items = new items();
                                 <ul class="pl-0 mb-0 r-car-point clearfix">
                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                    <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
+                                    <li><i class="fas fa-water"></i><span>2.3k CC</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -185,41 +184,41 @@ $items = new items();
             <div class="container">
                 <div class="r-search-map-over-in">
                     <div class="r-top-form-title">
-                        <h3>Find Car on Map</h3>
+                      <h3>Vind uw boot op de kaart</h3>
                     </div>
                     <form>
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-group">
-                                    <label> Car Brand </label>
-                                    <select class="form-control">
-                                        <option>Any Brands</option>
-                                        <option>Any Brands</option>
-                                        <option>Any Brands</option>
-                                        <option>Any Brands</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-group">
-                                    <label> Car Type </label>
-                                    <select class="form-control">
-                                        <option>Any Type</option>
-                                        <option>Any Type</option>
-                                        <option>Any Type</option>
-                                        <option>Any Type</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-group">
-                                    <label> Car Price </label>
-                                    <select class="form-control">
-                                        <option>Price Low to High</option>
-                                        <option>Price High to Low</option>
-                                    </select>
-                                </div>
-                            </div>
+                      <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label> Boot merken </label>
+                            <select class="form-control">
+                              <option>Any Brands</option>
+                              <option>Any Brands</option>
+                              <option>Any Brands</option>
+                              <option>Any Brands</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label> Boot types </label>
+                            <select class="form-control">
+                              <option>Any Type</option>
+                              <option>Any Type</option>
+                              <option>Any Type</option>
+                              <option>Any Type</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label> Boot prijs </label>
+                            <select class="form-control">
+                              <option>prijs Laag to Hoog</option>
+                              <option>prijs Hoog to Laag</option>
+                            </select>
+                          </div>
+                        </div>
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                 <div class="form-group">
                                     <input type="submit" class="form-control btn-primary" value="Search Car Now">
@@ -234,8 +233,8 @@ $items = new items();
     <section>
         <div class="r-best-vehicles">
             <div class="r-sec-head r-accent-color r-sec-head-v">
-                <span>FEATURED CARS</span>
-                <h2>Our <b>Best Offers.</b></h2>
+              <span>UITGELICHTE BOTEN</span>
+              <h2>Onze <b>Beste Deals.</b></h2>
             </div>
             <div class="container">
                 <div class="row clearfix r-best-offer-list">
@@ -250,17 +249,17 @@ $items = new items();
                                     </div>
                                 </div>
                                 <div class="r-best-offer-content">
-                                    <a href="#"><b>Volk</b> GTR</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
+                                  <a href="#"><b>Volk</b> GTR</a>
+                                  <p>begint bij <b>45.00 USD</b> per dag</p>
+                                  <ul class="pl-0 mb-0">
+                                    <li><i class="fa fa-car"></i><span>2017</span></li>
+                                    <li><i class="fa fa-cogs"></i><span>AUTOMATISCH</span></li>
+                                    <li><i class="fa fa-beer"></i><span>BENZINE</span></li>
+                                    <li><i class="fas fa-water"></i><span>2.3k CC</span></li>
+                                  </ul>
                                 </div>
                                 <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
+                                  <span class="text-uppercase">huur deze boot</span>
                                 </div>
                             </div>
                         </div>
@@ -276,17 +275,17 @@ $items = new items();
                                     </div>
                                 </div>
                                 <div class="r-best-offer-content">
-                                    <a href="#"><b>Hyundai</b> Z.E</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
+                                  <a href="#"><b>Hyundai</b> Z.E</a>
+                                  <p>begint bij <b>45.00 USD</b> per dag</p>
+                                  <ul class="pl-0 mb-0">
+                                    <li><i class="fa fa-car"></i><span>2017</span></li>
+                                    <li><i class="fa fa-cogs"></i><span>AUTOMATISCH</span></li>
+                                    <li><i class="fa fa-beer"></i><span>BENZINE</span></li>
+                                    <li><i class="fas fa-water"></i><span>2.3k CC</span></li>
+                                  </ul>
                                 </div>
                                 <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
+                                  <span class="text-uppercase">huur deze boot</span>
                                 </div>
                             </div>
                         </div>
@@ -302,17 +301,17 @@ $items = new items();
                                     </div>
                                 </div>
                                 <div class="r-best-offer-content">
-                                    <a href="#"><b>Audi</b> R8</a>
-                                    <p>Start at <b>45.00 USD</b> per day</p>
-                                    <ul class="pl-0 mb-0">
-                                        <li><i class="fa fa-car"></i><span>2017</span></li>
-                                        <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
-                                        <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                        <li><i class="fa fa-road"></i><span>2.3k CC</span></li>
-                                    </ul>
+                                  <a href="#"><b>Audi</b> R8</a>
+                                  <p>begint bij <b>45.00 USD</b> per dag</p>
+                                  <ul class="pl-0 mb-0">
+                                    <li><i class="fa fa-car"></i><span>2017</span></li>
+                                    <li><i class="fa fa-cogs"></i><span>AUTOMATISCH</span></li>
+                                    <li><i class="fa fa-beer"></i><span>BENZINE</span></li>
+                                    <li><i class="fas fa-water"></i><span>2.3k CC</span></li>
+                                  </ul>
                                 </div>
                                 <div class="r-offer-rewst-this">
-                                    <span class="text-uppercase">Rent this car</span>
+                                  <span class="text-uppercase">huur deze boot</span>
                                 </div>
                             </div>
                         </div>
@@ -325,8 +324,8 @@ $items = new items();
     <section id="r-quote">
         <div class="r-quote r-quote-sub pt-0 r-quote-noafter">
             <div class="r-sec-head r-accent-color r-sec-head-t">
-                <span>LATEST TESTIMONIAL</span>
-                <h2>What <b>They Say</b> About Us.</h2>
+              <span>LAATSTE GETUIGENIS</span>
+              <h2>Wat <b>Ze zeggen</b> Over Ons.</h2>
             </div>
             <div class="container">
                 <div class="row">
@@ -334,44 +333,35 @@ $items = new items();
                         <div id="r-quote-carousel" class="carousel slide">
                             <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item">
-                                    <p>“This was our first time renting from Royal Cars and we were very pleased with
-                                        the whole experience. Your price was lower than other companies. Our rental
-                                        experience was good from start to finish, so we’ll be back in the future lorem
-                                        ipsum diamet.”</p>
-                                </div>
-                                <div class="carousel-item active">
-                                    <p>“This was our first time renting from Royal Cars and we were very pleased with
-                                        the whole experience. Your price was lower than other companies. Our rental
-                                        experience was good from start to finish, so we’ll be back in the future lorem
-                                        ipsum diamet.”</p>
-                                </div>
-                                <div class="carousel-item">
-                                    <p>“This was our first time renting from Royal Cars and we were very pleased with
-                                        the whole experience. Your price was lower than other companies. Our rental
-                                        experience was good from start to finish, so we’ll be back in the future lorem
-                                        ipsum diamet.”</p>
-                                </div>
+                                  <p>"Dit was onze eerste keer huren van Royal Yachts en we waren erg blij met de hele ervaring. Uw prijs was lager dan bij andere bedrijven. Onze verhuurervaring was goed van start tot finish, dus we komen terug in de toekomst. "</p>
+                               </div>
+                               <div class="carousel-item active">
+                                 <p>"Dit was onze eerste keer huren van Royal Yachts en we waren erg blij met de hele ervaring. Uw prijs was lager dan bij andere bedrijven. Onze verhuurervaring was goed van start tot finish, dus we komen terug in de toekomst. "</p>
+                               </div>
+                               <div class="carousel-item">
+                                  <p>"Dit was onze eerste keer huren van Royal Yachts en we waren erg blij met de hele ervaring. Uw prijs was lager dan bij andere bedrijven. Onze verhuurervaring was goed van start tot finish, dus we komen terug in de toekomst. "</p>
+                               </div>
                             </div>
                             <ol class="carousel-indicators">
                                 <li data-target="#r-quote-carousel" data-slide-to="0">
                                     <img class="img-fluid d-block" src="assets/images/user-02.jpg" alt="">
                                     <span>
                               <b>Robertho Garcia</b> <br>
-                              Graphic Designer
+                              Grafisch ontwerper
                             </span>
                                 </li>
                                 <li data-target="#r-quote-carousel" data-slide-to="1" class="active text-center">
                                     <img class="img-fluid d-block" src="assets/images/user-01.png" alt="">
                                     <span>
                               <b>Robertho Garcia</b> <br>
-                              Graphic Designer
+                              Grafisch ontwerper
                             </span>
                                 </li>
                                 <li data-target="#r-quote-carousel" data-slide-to="2">
                                     <img class="img-fluid d-block" src="assets/images/user-03.jpg" alt="">
                                     <span>
                               <b>Robertho Garcia</b> <br>
-                              Graphic Designer
+                              Grafisch ontwerper
                            </span>
                                 </li>
                             </ol>
@@ -386,26 +376,26 @@ $items = new items();
         <div class="r-driver-blog-dark">
             <div class="r-sub-banners clearfix">
                 <div class="r-sub-banner-in r-sub-dark">
-                    <span>BLACK CARS DISCOUNT 50%</span>
-                    <h4>Special Offers For <br><b>Black Friday.</b></h4>
+                  <span>KORTING OP ZWARTE BOTEN 50%</span>
+                  <h4>Special Deal Voor <br><b>Black Friday.</b></h4>
                 </div>
                 <div class="r-sub-banner-in r-sub-accent">
-                    <span>MONTHLY SPECIAL OFFER</span>
-                    <h4>Rent 3 Days & Get <br><b>Free Insurance.</b></h4>
+                  <span>MAANDELIJKSE SPECIAALE DEAL</span>
+                  <h4>Huur Voor 3 Dagen en Krijg <br><b>Gratis Verzekering.</b></h4>
                 </div>
-            </div>
-            <div class="r-sec-head r-accent-color r-sec-head-s">
-                <span>OUR PROFESSIONAL STAFF</span>
-                <h2>Royal Cars <b>Drivers.</b></h2>
-            </div>
+              </div>
+              <div class="r-sec-head r-accent-color r-sec-head-s">
+                <span>ONZE PROFECIONELE WERKNEMERS</span>
+                <h2>Royal Yachts <b>Bestuurders.</b></h2>
+              </div>
             <div class="container">
                 <div class="r-driver-blog">
                     <div class="row clearfix">
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
                             <div class="r-drivers">
                                 <div class="r-drivers-detail">
-                                    <div class="name">Luis <br>Henrique</div>
-                                    <div class="text">5 Years Experience</div>
+                                  <div class="name">Luis <br>Henrique</div>
+                                  <div class="text">5 jaar ervaring</div>
                                     <div class="icon">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
                                         <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -421,8 +411,8 @@ $items = new items();
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
                             <div class="r-drivers">
                                 <div class="r-drivers-detail">
-                                    <div class="name">Robertho Garcia</div>
-                                    <div class="text">5 Years Experience</div>
+                                  <div class="name">Robertho Garcia</div>
+                                  <div class="text">5 jaar ervaring</div>
                                     <div class="icon">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
                                         <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -438,8 +428,8 @@ $items = new items();
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
                             <div class="r-drivers">
                                 <div class="r-drivers-detail">
-                                    <div class="name">Daniel Quaresma</div>
-                                    <div class="text">5 Years Experience</div>
+                                  <div class="name">Daniel Quaresma</div>
+                                  <div class="text">5 jaar ervaring</div>
                                     <div class="icon">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
                                         <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -455,7 +445,7 @@ $items = new items();
                     </div>
                 </div>
                 <div class="r-all-but text-center pt-5">
-                    <a href="#" class="btn btn-full">View All Drivers</a>
+                    <a href="#" class="btn btn-full">Bekijk Alle Bestuurders</a>
                 </div>
             </div>
         </div>
@@ -463,8 +453,8 @@ $items = new items();
     <section id="r-best-vehicles">
         <div class="r-best-vehicles">
             <div class="r-sec-head r-accent-color r-sec-head-v">
-                <span>OUR VEHICLES BRANDS & TYPE</span>
-                <h2>Find Your <b>Best Vehicles.</b></h2>
+              <span>ONZE BOTEN & TYPES</span>
+              <h2>Vind de Boot <b>Die Het Best Bij U Past.</b></h2>
             </div>
             <div class="container">
                 <div class="row clearfix r-best-vehicle-list-outer mt-0">
@@ -504,7 +494,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -528,7 +518,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -552,7 +542,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -576,7 +566,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -599,7 +589,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -623,7 +613,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -651,7 +641,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -675,7 +665,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -699,7 +689,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -723,7 +713,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -751,7 +741,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -775,7 +765,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -798,7 +788,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -822,7 +812,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -846,7 +836,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -870,7 +860,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -898,7 +888,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -922,7 +912,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -945,7 +935,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -969,7 +959,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -993,7 +983,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1017,7 +1007,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1045,7 +1035,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1069,7 +1059,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1092,7 +1082,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1116,7 +1106,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1140,7 +1130,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1164,7 +1154,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1192,7 +1182,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1216,7 +1206,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1239,7 +1229,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1263,7 +1253,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1287,7 +1277,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1315,7 +1305,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1339,7 +1329,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1363,7 +1353,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1387,7 +1377,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1411,7 +1401,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1434,7 +1424,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1462,7 +1452,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1486,7 +1476,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1509,7 +1499,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1533,7 +1523,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1557,7 +1547,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1581,7 +1571,7 @@ $items = new items();
                                                 <ul>
                                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
                                                     <li><i class="fa fa-beer"></i><span>PETROL</span></li>
-                                                    <li><i class="fa fa-road"></i><span>25K KM</span></li>
+                                                    <li><i class="fas fa-water"></i><span>25K KM</span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1600,8 +1590,8 @@ $items = new items();
                 <div class="row v-align-center r-faq-header-wrapper">
                     <div class="col-md-6 col-sm-12">
                         <div class="r-faq-header">
-                            <span>FIND YOUR ANSWER HERE</span>
-                            <h2>Frequenly <strong>Ask &amp; Questions.</strong></h2>
+                          <span>VIND HIER UW ANTWOORD</span>
+                          <h2>Frequent <strong>Gestelde  Vragen.</strong></h2>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
@@ -1632,287 +1622,254 @@ $items = new items();
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        How to reserved a car here?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            hoe kan ik hier een boot reserveren?
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                        <div class="r-accordion">
+                          <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        How can i drop the rental car?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            hoe kan ik een gehuurde boot cancelen?
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                        <div class="r-accordion">
+                          <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        What happen if i crash the car?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                            </div>
-                            <div class="col-lg-6 col-md-12">
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            wat gebuurt er als ik een boot crash?
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                      </div>
+                      <div class="col-lg-6 col-md-12">
+                        <div class="r-accordion">
+                         <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        How can i select a car rent?
-                                    </div>
-                                    <div class="r-accordion-body" style="display: none;">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            hoe kan ik een boothuur selecteren?
+                          </div>
+                          <div class="r-accordion-body" style="display: none;">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                        <div class="r-accordion">
+                          <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        Do you have VIP access to airport?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            Heeft u VIP-toegang tot de luchthaven?
+
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                        <div class="r-accordion">
+                          <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        What happen if i crash the car?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                            </div>
-                        </div>
+                            wat gebuurt er als ik een boot crash?
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                      </div>
                     </div>
-                    <div class="tab-pane fade" id="faq-02" role="tabpanel" aria-labelledby="faq-02-tab">
-                        <div class="row r-faq-accordion-wrapper">
-                            <div class="col-lg-6 col-md-12">
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                  </div>
+                  <div class="tab-pane fade" id="faq-02" role="tabpanel" aria-labelledby="faq-02-tab">
+                    <div class="row r-faq-accordion-wrapper">
+                      <div class="col-lg-6 col-md-12">
+                        <div class="r-accordion">
+                         <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        How can i select a car rent?
-                                    </div>
-                                    <div class="r-accordion-body" style="display: none;">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            hoe kan ik een boothuur selecteren?
+                          </div>
+                          <div class="r-accordion-body" style="display: none;">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                        <div class="r-accordion">
+                          <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        Do you have VIP access to airport?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            Heeft u VIP-toegang tot de luchthaven?
+
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                        <div class="r-accordion">
+                          <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        What happen if i crash the car?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                            </div>
-                            <div class="col-lg-6 col-md-12">
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            wat gebuurt er als ik een boot crash?
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                      </div>
+                       <div class="col-lg-6 col-md-12">
+                        <div class="r-accordion">
+                          <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        How to reserved a car here?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            hoe kan ik hier een boot reserveren?
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                        <div class="r-accordion">
+                          <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        How can i drop the rental car?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            hoe kan ik een gehuurde boot cancelen?
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                        <div class="r-accordion">
+                          <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        What happen if i crash the car?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                            </div>
-                        </div>
+                            wat gebuurt er als ik een boot crash?
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                      </div>
                     </div>
-                    <div class="tab-pane fade" id="faq-03" role="tabpanel" aria-labelledby="faq-03-tab">
-                        <div class="row r-faq-accordion-wrapper">
-                            <div class="col-lg-6 col-md-12">
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                  </div>
+                  <div class="tab-pane fade" id="faq-03" role="tabpanel" aria-labelledby="faq-03-tab">
+                    <div class="row r-faq-accordion-wrapper">
+                      <div class="col-lg-6 col-md-12">
+                        <div class="r-accordion">
+                          <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        How can i drop the rental car?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            hoe kan ik een gehuurde boot cancelen?
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                        <div class="r-accordion">
+                          <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        What happen if i crash the car?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            wat gebuurt er als ik een boot crash?
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                        <div class="r-accordion">
+                          <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        How to reserved a car here?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                            </div>
-                            <div class="col-lg-6 col-md-12">
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            hoe kan ik hier een boot reserveren?
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                      </div>
+                      <div class="col-lg-6 col-md-12">
+                        <div class="r-accordion">
+                          <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        Do you have VIP access to airport?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            Heeft u VIP-toegang tot de luchthaven?
+
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                        <div class="r-accordion">
+                          <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        What happen if i crash the car?
-                                    </div>
-                                    <div class="r-accordion-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
-                                    </div>
-                                </div> <!-- /r-accordion -->
-                                <div class="r-accordion">
-                                    <div class="r-accordion-heading">
+                            wat gebuurt er als ik een boot crash?
+                          </div>
+                          <div class="r-accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
+                          </div>
+                        </div> <!-- /r-accordion -->
+                        <div class="r-accordion">
+                         <div class="r-accordion-heading">
                             <span class="r-accordion-toggle">
                               <i class="fa-arrow-circle-down fa"></i>
                             </span>
-                                        How can i select a car rent?
-                                    </div>
-                                    <div class="r-accordion-body" style="display: none;">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-                                            adipiscing dolgedo.
-                                        </p>
+                            hoe kan ik een boothuur selecteren?
+                          </div>
+                          <div class="r-accordion-body" style="display: none;">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing dolgedo.
+                            </p>
                                     </div>
                                 </div> <!-- /r-accordion -->
                             </div>
@@ -1921,8 +1878,7 @@ $items = new items();
                 </div>
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <a href="#" class="btn-primary icon-btn"> <i class="fa fa-question-circle icon"></i> MAKE A
-                            QUESTIONS </a>
+                        <a href="#" class="btn-primary icon-btn"> <i class="fa fa-question-circle icon"></i> maak een vraag </a>
                     </div>
                 </div>
             </div>
@@ -1940,7 +1896,7 @@ $items = new items();
                             <!-- 1.172.700 -->
                             <span class="r-count">0</span>
                         </div>
-                        <span class="r-count-title"> HAPPY CUSTOMERS </span>
+                        <span class="r-count-title"> BLIJE KLANTEN </span>
                     </div>
                 </div>
 
@@ -1954,7 +1910,7 @@ $items = new items();
                             <span class="r-count">0</span>
 
                         </div>
-                        <span class="r-count-title"> CARS IN GARAGE </span>
+                        <span class="r-count-title"> BOTEN IN ONZE HAVENS </span>
                     </div>
                 </div>
 
@@ -1967,7 +1923,7 @@ $items = new items();
                             <!-- 1.211.100 -->
                             <span class="r-count">0</span>
                         </div>
-                        <span class="r-count-title"> TOTAL KILOMETER/MIL </span>
+                        <span class="r-count-title"> TOTAAL KILOMETERS </span>
                     </div>
                 </div>
 
@@ -1980,7 +1936,7 @@ $items = new items();
                             <!-- 47.250 -->
                             <span class="r-count">0</span>
                         </div>
-                        <span class="r-count-title"> CAR CENTER SOLUTIONS </span>
+                        <span class="r-count-title"> YACHT CENTER OPLOSSINGEN </span>
                     </div>
                 </div>
             </div>
@@ -1989,8 +1945,8 @@ $items = new items();
     <section id="r-latest-news">
         <div class="r-latest-news">
             <div class="r-sec-head r-sec-head-b">
-                <span>ARTICLES FROM BLOG</span>
-                <h2>Our <b>Latest News.</b></h2>
+                <span>ARTIKELEN VAN ONZE BLOG</span>
+                <h2>ONS <b>LAATSTE NIEUWS.</b></h2>
             </div>
             <div class="container">
                 <div class="owl-carousel r-latest-news-list" id="r-latest-news-slider">
@@ -1999,8 +1955,8 @@ $items = new items();
                                                                 class="img-fluid d-block m-auto" alt=""></a>
                         <div class="r-latest-news-content">
                             <span class="r-date">27 JUNE 2018</span>
-                            <h4><a href="#">What To Do if Your Rental Car Has Met With An Accident.</a></h4>
-                            <a href="#" class="r-read-more">READ ARTICLE</a>
+                            <h4><a href="#">wat als we een ongelukje hebben.</a></h4>
+                            <a href="#" class="r-read-more">lees artikel verder</a>
                         </div>
                     </div>
 
@@ -2009,8 +1965,8 @@ $items = new items();
                                                                 class="img-fluid d-block m-auto" alt=""></a>
                         <div class="r-latest-news-content">
                             <span class="r-date">27 JUNE 2018</span>
-                            <h4><a href="#">What To Do if Your Rental Car Has Met With An Accident.</a></h4>
-                            <a href="#" class="r-read-more">READ ARTICLE</a>
+                            <h4><a href="#">wat als we een ongelukje hebben.</a></h4>
+                            <a href="#" class="r-read-more">lees artikel verder</a>
                         </div>
                     </div>
 
@@ -2019,15 +1975,15 @@ $items = new items();
                                                                 class="img-fluid d-block m-auto" alt=""></a>
                         <div class="r-latest-news-content">
                             <span class="r-date">27 JUNE 2018</span>
-                            <h4><a href="#">What To Do if Your Rental Car Has Met With An Accident.</a></h4>
-                            <a href="#" class="r-read-more">READ ARTICLE</a>
+                            <h4><a href="#">wat als we een ongelukje hebben.</a></h4>
+                            <a href="#" class="r-read-more">lees artikel verder</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="r-follow-us text-center">
                 <img src="assets/images/instagram.png" class="img-fluid d-block m-auto" alt="">
-                <span>Follow Our Instagram <a href="#">#RoyalCars</a></span>
+                <span>Follow Ons Instagram <a href="#">#RoyalCars</a></span>
             </div>
         </div>
     </section>
@@ -2088,99 +2044,70 @@ $items = new items();
         </div>
     </div>
     <footer>
-        <div class="r-footer">
-            <div class="container">
-                <div class="row clearfix">
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="r-footer-block">
-                            <img src="assets/images/footer-logo.png" class="d-block img-fluid" alt="">
-                            <p>
-                                We know the difference is in the details and that’s why our car rental services, in the
-                                tourism and business industry, stand out for their quality.
-                            </p>
-                            <form action="#">
-                                <div class="r-newsletter">
-                                    <input type="email" placeholder="Subscribe Newsletter">
-                                    <button class="btn"><i class="fa fa-envelope"></i></button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="r-footer-block">
-                            <div class="r-footer-widget r-footer-phone">
-                                <span><i class="fa fa-phone"></i> CALL US ON LINE 1</span>
-                                <h5>100.1212.2000</h5>
-                            </div>
-                            <div class="r-footer-widget r-footer-nav">
-                                <h6>USEFUL LINK</h6>
-                                <nav>
-                                    <ul>
-                                        <li><a href="#">Private Policy</a></li>
-                                        <li><a href="#">Term & Conditions</a></li>
-                                        <li><a href="#">Copyright Notification</a></li>
-                                        <li><a href="#">Register for New Member</a></li>
-                                        <li><a href="#">Press Release</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="r-footer-block">
-                            <div class="r-footer-widget r-footer-phone">
-                                <span><i class="fa fa-phone"></i> CALL US ON LINE 2</span>
-                                <h5>100.2424.2000</h5>
-                            </div>
-                            <div class="r-footer-widget r-footer-nav">
-                                <h6>OUR INFO</h6>
-                                <nav>
-                                    <ul>
-                                        <li><a href="#">About Royal Cars</a></li>
-                                        <li><a href="#">Our Mission & Strategy</a></li>
-                                        <li><a href="#">Our Vision</a></li>
-                                        <li><a href="#">Royal Cars Advantages</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="r-footer-block">
-                            <div class="r-footer-widget r-footer-map">
-                                <a href="#"> <img src="assets/images/icon-footer-map.png" alt="" class="icon"/>
-                                    RoyalCars on Map</a>
-                            </div>
-                            <div class="r-footer-widget r-footer-nav">
-                                <h6>ACCOUNT INFORMATION</h6>
-                                <nav>
-                                    <ul>
-                                        <li><a href="#">Login to My Account</a></li>
-                                        <li><a href="#">Press Releases</a></li>
-                                        <li><a href="#">User Dashboard</a></li>
-                                        <li><a href="#">Email Address</a></li>
-                                        <li><a href="#">Lorem Ipsum dolorsit</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row clearfix r-footer-strip">
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        ©2018 Created by jThemes Studio
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i>. <span>Facebook</span></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i>.<span>Twitter</span></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i>.<span>Instagram</span></a></li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="r-footer">
+        <div class="container">
+          <div class="row clearfix">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="r-footer-block">
+                <img src="assets/images/logo_small.png" class="d-block img-fluid" alt="">
+                <p>
+                    <i>“Mooie boten voor een mooie prijs!!”</i>
+                </p>
+              </div>
             </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12" style="padding-left: 60px;">
+              <div class="r-footer-block">
+                <div class="r-footer-widget r-footer-nav">
+                  <h6>NAVIGEER NAAR</h6>
+                  <nav>
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">Over ons</a></li>
+                      <li><a href="boot-overzicht.html">Boten</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="r-footer-block">
+                <div class="r-footer-widget r-footer-nav">
+                  <h6>BOTEN</h6>
+                  <nav>
+                    <ul>
+                      <li ><a href="index.html">Pedom 3</a></li>
+                      <li><a href="about.html">Ohana 4</a></li>
+                      <li><a href="boot-overzicht.html">Destiny Z</a></li>
+                      <li><a href="contact.html">Boat 4</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="r-footer-block">
+                <div class="r-footer-widget r-footer-nav">
+                  <h6>INFO</h6>
+                  <nav>
+                    <ul>
+                      <i class="fas fa-star"> Coral Yachts</i><br>
+                      <i class="fas fa-phone"> 06-12345678</i><br>
+                      <i class="fas fa-building"> Kaasstraat 123, Amsterdam</i><br>
+                      <i class="fas fa-university"> BTW nr. 12345678</i>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row clearfix r-footer-strip">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+             ©2019 Created by Florido Schetsers
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
 </div>
 <div id="r-to-top" class="r-to-top"><i class="fa fa-angle-up"></i></div>
