@@ -115,7 +115,7 @@ $items = new items();
                                 </ul>
                                 <h4><a href="#">Audi Cabriolet R8</a></h4>
                                 <div class="r-price-discount"><span class="r-cut-price">$50.00</span> <b>25.00 USD</b>
-                                    per day
+                                    per dag
                                 </div>
                                 <ul class="pl-0 mb-0 r-car-point clearfix">
                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
@@ -138,7 +138,7 @@ $items = new items();
                                 </ul>
                                 <h4><a href="#">Mercedes Benz I7</a></h4>
                                 <div class="r-price-discount"><span class="r-cut-price">$50.00</span> <b>25.00 USD</b>
-                                    per day
+                                    per dag
                                 </div>
                                 <ul class="pl-0 mb-0 r-car-point clearfix">
                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
@@ -161,7 +161,7 @@ $items = new items();
                                 </ul>
                                 <h4><a href="#">Audi Cabriolet R8</a></h4>
                                 <div class="r-price-discount"><span class="r-cut-price">$50.00</span> <b>25.00 USD</b>
-                                    per day
+                                    per dag
                                 </div>
                                 <ul class="pl-0 mb-0 r-car-point clearfix">
                                     <li><i class="fa fa-cogs"></i><span>MANUAL</span></li>
