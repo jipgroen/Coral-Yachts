@@ -14,6 +14,11 @@ class tools
         return $urlIndex = "http://$_SERVER[HTTP_HOST]/yacht/RoyalCarsHtml/";
     }
 
+    public function getHostAdmin()
+    {
+        return $this->getHost() . "admin/";
+    }
+
     public function printHeader()
     {
         return $html = ' <header>
@@ -74,6 +79,16 @@ class tools
 
             return $itemString;
         }
+    }
+
+    public function returnToLogin()
+    {
+        header("location: " . $this->getHost() . "admin/login");
+    }
+
+    public function returnAdmin()
+    {
+        header("location: " . $this->getHost() . "admin/");
     }
 
     function splitString($string)

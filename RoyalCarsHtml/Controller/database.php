@@ -38,10 +38,7 @@ class database extends tools
 
         $sql = "SELECT " . $itemString . " FROM " . $table;
 
-
         return mysqli_query($this->conn, $sql);
-
-
     }
 
     function getWhere($table, $items, $where, $what, $is)
@@ -54,7 +51,7 @@ class database extends tools
         $itemString = substr($itemString, 0, -2);
 
         $sql = "SELECT " . $itemString . " FROM " . $table . " WHERE " . $where . " " . $what . " " . $is;
-
+        echo $sql;
         return mysqli_query($this->connect(), $sql);
     }
 
@@ -78,15 +75,21 @@ class database extends tools
         return mysqli_query($this->connect(), $sql);
     }
 
+    function insert($table, $data, $values)
+    {
+        $insertData = $this->arrayToString($data, false);
+        $insertValues = $this->arrayToString($values, true);
+
+        $sql = "INSERT INTO " . $table . " ( " . $insertData . " ) VALUES (" . $insertValues . " )";
+        $conn = $this->connect();
+        mysqli_query($conn, $sql);
+        return mysqli_insert_id($conn);
+    }
+
     public function checkId($checkId, $table, $column)
     {
         $sql = "SELECT " . $column . " FROM " . $table . " WHERE " . $column . " = " . $checkId;
         return mysqli_query($this->conn, $sql);
-    }
-
-    public function getHost()
-    {
-        return "http://$_SERVER[HTTP_HOST]/yacht/RoyalCarsHtml/";
     }
 
     public function getPage($url)

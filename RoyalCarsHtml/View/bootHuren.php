@@ -176,10 +176,24 @@ if ($items->num_rows == 1) {
                                         </div>
                                         <div class="col-md-6 col-sm-12 col-xs-12">
                                             <div class="form-group">
-                                                <label>Begin datum </label>
+                                                <label for="begin-datum">Begin datum </label>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="dd.mm.yy"
-                                                           id="begin-datum"/>
+                                                    <input type="date" style="    border-left-color: #ffcd00;
+    border-left: 3px solid #ffcd00;
+    height: 50px !important;
+    background: #f8f8f8;
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    z-index: 0;
+    border-radius: 0px;
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    padding: 0.5rem 0.75rem;"
+                                                           id="begin-datum" placeholder="<?php echo date("d-m-Y")?>"/>
                                                     <span class="input-group-addon"><i
                                                                 class="fa fa-calendar"></i></span>
                                                 </div>
@@ -189,7 +203,21 @@ if ($items->num_rows == 1) {
                                             <div class="form-group">
                                                 <label>Eind datum </label>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="dd.mm.yy"
+                                                    <input type="date" style="    border-left-color: #ffcd00;
+    border-left: 3px solid #ffcd00;
+    height: 50px !important;
+    background: #f8f8f8;
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    z-index: 0;
+    border-radius: 0px;
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    padding: 0.5rem 0.75rem;" placeholder="<?php echo date("d-m-Y")?>"
                                                            id="eind-datum"/>
                                                     <span class="input-group-addon"><i
                                                                 class="fa fa-calendar"></i></span>
@@ -251,6 +279,7 @@ if ($items->num_rows == 1) {
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <div class="r-site-checkbox">
+                                                    <span id="spanGender" style=" color: red; display: none">verplicht</span>
                                                     <label>
                                                         Meneer
                                                         <input type="radio" class="gender" name="gender" value="m"/>
@@ -303,7 +332,7 @@ if ($items->num_rows == 1) {
 
                         <div class="r-site-default-accordion">
                             <div class="r-accordion-header">
-                                <h2 class="r-accordion-heading">Betaalmethodes</h2>
+                                <h2 class="r-accordion-heading">Betaalmethodes <span id="spanBetaalMethode" style="padding-left: 5px; color: red; display: none">verplicht</span></h2>
                                 <i class="fa fa-angle-up"></i>
                             </div>
                             <div class="r-accordion-body">
@@ -349,7 +378,8 @@ if ($items->num_rows == 1) {
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <textarea id="extra-gegevens" class="form-control" placeholder="Extra gegevens"></textarea>
+                                                <textarea id="extra-gegevens" class="form-control"
+                                                          placeholder="Extra gegevens"></textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -371,7 +401,7 @@ if ($items->num_rows == 1) {
                                 </div>
                                 <div class="col-lg-6 col-md-12 r-submission-btn-wrapper">
                                     <input type="reset" class="btn-default" value="Cancel This"/>
-                                    <input type="submit" class="btn-primary" value="Reserve Now"/>
+                                    <input id="submitForm" type="submit" class="btn-primary" value="Reserve Now"/>
                                 </div>
                             </div>
                         </div>
@@ -510,7 +540,7 @@ if ($items->num_rows == 1) {
     <script src="<?php echo $database->getHost() ?>assets/js/plugins/owl/owl.carousel.min.js"></script>
     <script src="<?php echo $database->getHost() ?>assets/js/plugins/owl/owl.carousel2.thumbs.js"></script>
     <script src="<?php echo $database->getHost() ?>assets/js/custom.js"></script>
-
+    <script src="<?php echo $database->getHost() ?>scripts/bootHuren.js"></script>
 
     </body>
     </html>
